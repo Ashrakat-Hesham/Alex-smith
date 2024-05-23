@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #ff305b;
+    text-decoration: none;
+}
+
+body {
+    height: 3000px;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>> home page  <<<<<<<<<<<<<<<<<<<<<<<<< */
+.home {
+    background-image: url(img/slider/slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.logo h2 {
+    width: 10%;
+    float: left;
+    color: #ff305b;
+    margin-left: 50px;
+}
+
+.items {
+    width: 50%;
+    float: right;
+}
+
+.items ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.home .container .items .home1 a {
+    color: #ff305b;
+}
+
+.home .container .items a {
+    color: #fff;
+}
+
+.color {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100%;
+}
+
+.home .caption h3 {
+    font-size: 24px;
+}
+
+.home h1 {
+    color: #ff305b;
+    font-size: 70px;
+}
+
+.caption {
+    padding:200px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>> about us <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.about {
+    padding: 100px 0 100px;
+    width:100%;
+    overflow: hidden;
+}
+
+.conts{
+    padding:0 100px;
+ 
+}
+.about .box {
+    width: 25%;
+    margin: 0 30px 100px 50px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 0 8px #555555;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    float: left;
+    margin-right: 100px;
+}
+
+
+
+.about .box .photo  {
+    border-radius: 5px;
+    position: relative;
+    transform: translateY(25px) translateX(25px);
+    overflow: hidden;
+}
+
+.about .box .photo .bg {
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    bottom: 10;
+    transition: top 0.8s;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 100%;
+    position: absolute;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.about .box .photo:hover .bg {
+    top: 0%;
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    padding-bottom: 15px;
+    position: relative;
+   
+
+}
+
+.about .words h2::before {
+    content: '';
+    position: absolute;
+    background-color: #ff305b;
+    width: 4px;
+    height: 25px;
+    margin-right: 50px;
+    left: -5px;
+    top: 10px;
+}
+
+.about .words {
+    margin-top: 50px;
+    width: 60%;
+    float: left;
+    margin-right: 30px;
+    padding-left: 30px;
+    font-size: 17px;
+    color: #555555;
+    font-weight: 400;
+}
+
+.about .bordr {
+    padding: 15px 0px;
+    border-bottom: 1px dashed #999999;
+}
+
+.about .words .details1 {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
+.details2 {
+    width: 50%;
+    float: right;
+}
+
+.about .words .details ul {
+    list-style: none;
+}
+
+.about .words .details ul li {
+    padding: 10px 0;
+}
+
+.about .words .details span {
+
+    color: black;
+    font-weight: 500;
+}
+
+.about .words .details span a {
+    color: #ff305b;
+text-decoration: none;}
+
+.about .words button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #ff305b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.about .words button img {
+    width: 20px;
+}
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> services <<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.services {
+    background-color: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+.services h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32;
+    padding-top: 50px;
+}
+
+.services .contain {
+
+    margin: 20px 60px;
+}
+
+.services h2::before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.services h2::after,
+.services h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.services h2::after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.services .item {
+
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 40px 40px;
+
+}
+
+.services .item:hover {
+    box-shadow: 5px 5px 5px 2px gray;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>  portfolio  <<<<<<<<<<<<<<<<<<<<<<< */
+
+.portfolio {
+    margin: auto;
+    width: 90%;
+    padding: 50px 80px 0px 80px;
+
+}
+
+.portfolio .ports {
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 32px;
+    color: #333;
+    position: relative;
+}
+
+.portfolio ul {
+    text-align: center;
+
+}
+
+.portfolio li {
+    display: inline;
+    padding: 0 10px 20px;
+
+}
+
+.portfolio .port1 {
+    color: #ff305b;
+}
+
+.portfolio h2::before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.portfolio h2::after,
+.portfolio h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.portfolio h2::after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.portfolio .images {
+    overflow: hidden;
+
+}
+
+.portfolio .image {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio img {
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+
+
+.backg {
+
+    width: 95%;
+    height: 94%;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 10px;
+    position: absolute;
+    transition: top;
+    top: 110%;
+
+}
+
+
+
+
+.portfolio .images .image:hover .backg {
+    top: 10px;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>  members     <<<<<<<<<<<<<<<<<<<<< */
+.members {
+    margin-top: 50px;
+    height: 300px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 80px;
+    margin-bottom: 100px;
+
+}
+
+.members img {
+    width: 90%;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>feedback<<<<<<<<<<<<<<<<<<<<<<<< */
+.feedback .alex {
+    margin-top: 100px;
+    width: 800px;
+    background-color: #f1f1f1;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.feedback h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.feedback h3 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.feedback h2::before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.feedback h2::after,
+.feedback h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.feedback h2::after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.triangle {
+    transform: rotate(45deg);
+    width: 100px;
+    height: 200px;
+    background-color: #ff305b;
+    position: absolute;
+    top: -80px;
+    left: -15px;
+}
+
+.feedback .alex .photo1 {
+    width: 200%;
+}
+
+.feedback .alex img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.feedback .alex h2 {
+
+    padding-left: 150px;
+    color: #333;
+}
+
+.feedback .alex img {
+    width: 5%;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.feedback .alex span {
+    color: #555555;
+    padding-left: 10px;
+}
+
+.feedback p {
+    margin: 0px 100px;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>  our blog  <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.blog {
+    margin-top: 50px;
+    padding: 100px;
+    background-color: #f1f1f1;
+}
+
+.blog h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    position: relative;
+}
+
+.blog h2::before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.blog h2::after,
+.blog h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.blog h2::after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.blogs {
+    overflow: hidden;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+.blog1 {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+}
+
+.blog1 img {
+    width: 100%;
+}
+
+.blog1 iframe {
+    width: 100%;
+    height: 185px;
+}
+
+.blog .blogs .blog1 .data {
+    padding: 30px;
+    background-color: #fff;
+
+    /* background-color: aquamarine; */
+}
+
+.blog .blogs .blog1 .data .date {
+    padding: 20px 0;
+}
+
+.blog .blogs .blog1 .data button {
+    border: none;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.blog .blogs .blog1 .data button img {
+    margin-top: 1px;
+    width: 5%;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>  contact  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.contact {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact h2 {
+    padding-bottom: 50px;
+    color: #333;
+    font-size: 32px;
+    position: relative;
+
+}
+
+.contact h2::before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.contact h2::after,
+.contact h2::before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.contact h2::after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+
+.contact input {
+    border-radius: 5px;
+    border-color: #ff305b;
+    padding: 10px 170px 10px 10px;
+    margin: 20px 20px;
+}
+
+.contact .contact1 {
+
+    border-radius: 5px;
+    border-color: #ff305b;
+    display: block;
+    padding: 10px 180px 10px 10px;
+    margin: 0px auto 20px;
+}
+
+.contact textarea {
+    border-radius: 5px;
+    border-color: #ff305b;
+    display: block;
+    margin: auto;
+}
+
+.contact button {
+    background-color: #ff305b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact button a {
+    color: #fff;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>   footer    <<<<<<<<<<<<<<<<<<<< */
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    position: relative;
+}
+
+.footer span a {
+    color: #ff305b;
+    text-decoration: none;
+
+}
+
+.footer img {
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.footer p {
+    padding-top: 100px;
+    text-align: center;
+    color: #f1f1f1;
+}
